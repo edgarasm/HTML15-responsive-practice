@@ -1,0 +1,64 @@
+body {
+  color: #777777;
+  margin-bottom: 500px;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.navigation {
+  display: none;
+}
+.burger {
+  color: #222222;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.section__gilbert {
+  position: relative;
+  /* padding-top: 150px; */
+  padding: 150px 1rem 1rem 1rem;
+}
+.section__gilbert h6 {
+  color: #222222;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.section__gilbert h1 {
+  color: #222222;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.section__gilbert p {
+  text-align: justify;
+}
+button {
+  background-color: #8490ff;
+  color: #fff;
+  border: none;
+  padding: 1rem 1.6rem;
+  font-weight: 600;
+}
+button:hover {
+  box-shadow: #fff;
+}
+.section__gilbert img {
+  /* width: 90%; */
+  padding: 2rem 4rem;
+}
+.section__services {
+}
+.section__services h1 {
+  color: #222222;
+  text-align: center;
+}
+.section__services p {
+  text-align: center;
+}
